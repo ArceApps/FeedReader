@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/detalle_noticia_margen_lateral"
+    tools:context=".DetalleNoticia">
+
+        <ImageView
+            android:id="@+id/image_view_detalle_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="@dimen/item_noticia_margen_imagen"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="@dimen/item_noticia_margen_imagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pic_400x200" />
+
+        <TextView
+            android:id="@+id/tv_titulo_detalle_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_noticia_margen_entre_item"
+            android:layout_marginTop="@dimen/detalle_noticia_entre_item"
+            android:layout_marginEnd="@dimen/item_noticia_margen_entre_item"
+            android:text="Titulo item"
+            android:textSize="@dimen/item_noticia_size_titulo"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_detalle_noticia" />
+
+        <TextView
+            android:id="@+id/tv_description_detalle_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_noticia_margen_entre_item"
+            android:layout_marginTop="@dimen/detalle_noticia_entre_item"
+            android:layout_marginEnd="@dimen/item_noticia_margen_entre_item"
+            android:text="Descripción del item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titulo_detalle_noticia" />
+
+        <TextView
+            android:id="@+id/tv_fecha_detalle_noticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/detalle_noticia_entre_item"
+            android:layout_marginEnd="@dimen/item_noticia_margen_entre_item"
+            android:text="fecha"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description_detalle_noticia" />
+
+        <WebView
+            android:id="@+id/web_view_detalle_noticia"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/detalle_noticia_margen_lateral"
+            android:layout_marginEnd="@dimen/detalle_noticia_margen_lateral"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_fecha_detalle_noticia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

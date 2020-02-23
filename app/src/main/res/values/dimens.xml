@@ -2,4 +2,23 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Diseño Card View-->
+    <dimen name="item_noticia_margen_imagen">5dp</dimen>
+    <dimen name="item_noticia_margen_textos">5dp</dimen>
+    <dimen name="item_noticia_margen_entre_item">5dp</dimen>
+    <dimen name="item_noticia_border_radio">5dp</dimen>
+
+    <dimen name="item_noticia_size_titulo">20sp</dimen>
+    <dimen name="item_noticia_size_fecha">10sp</dimen>
+
+    <!-- Diseño Detalle noticia-->
+    <dimen name="detalle_noticia_margen_lateral">5dp</dimen>
+    <dimen name="detalle_noticia_entre_item">5dp</dimen>
+
+    <!-- Diseño web view-->
+    <dimen name="web_view_margen_lateral">5dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 </resources>

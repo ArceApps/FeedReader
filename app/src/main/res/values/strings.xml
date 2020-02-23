@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">FeedReader</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="menu_search">Buscar</string>
+    <string name="cuadro_busqueda">Buscar...</string>
+    <string name="conexion_internet_ok">Conectado a la red</string>
+    <string name="conexion_internet_error">No tienes conexión, cargando las noticias guardadas</string>
+    <string name="recarga_noticias">Busca nuevas noticias</string>
+    <string name="recarga_noticias_error">No se pueden recargar las noticias, comprueba tu conexión</string>
+
 </resources>
