@@ -66,6 +66,7 @@ public class LeerFeed extends AsyncTask<Void, Void, Void> {
     }
 
     public void recargarNoticias(){
+        procesarRss(obtenerDatos());
         loadAdaptador(noticias, context);
     }
 
